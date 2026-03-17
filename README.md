@@ -1,5 +1,5 @@
 # GymAI
-Site de academia com inteligência artificial integrada, feito com HTML, Tailwind CSS, TypeScript, React, JSON, Node.js, Vite, Express e OpenAI.
+Site de academia com inteligência artificial integrada, feito com HTML, Tailwind CSS, TypeScript, React, JSON, Node.js, Vite, PostgreSQL (Neon), Express e OpenAI.
 
 Comandos:
 
