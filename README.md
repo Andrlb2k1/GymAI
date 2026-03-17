@@ -13,3 +13,11 @@ npm run dev
 npm install react-router-dom
 
 npm install tailwindcss @tailwindcss/vite
+
+npm install lucide-react
+
+npm install @neondatabase/neon-js
+
+Links:
+
+https://console.neon.tech/app/org-rapid-cell-83625301/welcome
