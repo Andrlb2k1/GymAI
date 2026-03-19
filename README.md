@@ -26,6 +26,12 @@ npm install express
 
 npm run dev:server
 
+npx prisma@latest init
+
+npx prisma migrate dev --name init
+
+npx prisma generate
+
 Obs.: As demais dependências foram instaladas de forma manual.
 
 Links:
