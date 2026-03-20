@@ -39,3 +39,5 @@ Obs.: As demais dependências foram instaladas de forma manual.
 Links:
 
 https://console.neon.tech/app/org-rapid-cell-83625301/welcome
+
+https://openrouter.ai/

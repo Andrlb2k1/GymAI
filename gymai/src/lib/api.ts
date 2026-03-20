@@ -32,4 +32,8 @@ export const api = {
   ) => {
     return post("/profile", { userId, ...profile });
   },
+
+  generatePlan: (userId: string) => {
+    return post("/plan/generate", { userId });
+  },
 };

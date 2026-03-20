@@ -51,7 +51,7 @@ const splitOptions = [
 ];
 
 export default function Onboarding() {
-    const { user, saveProfile } = useAuth();
+    const { user, saveProfile, generatePlan } = useAuth();
     const [formData, setFormData] = useState({
         goal: "bulk",
         experience: "intermediate",
@@ -84,6 +84,7 @@ export default function Onboarding() {
         try {
             await saveProfile(profile);
             setIsGenerating(true);
+            await generatePlan();
         } catch (err) {
             setError(err instanceof Error ? err.message : "Failed to save profile!");
         } finally {
