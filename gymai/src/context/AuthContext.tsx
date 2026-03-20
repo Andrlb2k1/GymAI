@@ -44,8 +44,7 @@ export default function AuthProvider({ children }: { children: ReactNode }) {
       throw new Error("User must be authenticated to save profile!");
     }
 
-    await api.saveProfile(neonUser.id, profileData);
-  }
+}
 
     return (
         <AuthContext.Provider value={{ user: neonUser, isLoading, saveProfile }}>
